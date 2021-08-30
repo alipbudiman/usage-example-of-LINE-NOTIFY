@@ -3,6 +3,7 @@
 Line Notify:
 
 **Receive web service notifications on LINE**
+
 Get notifications from LINE Notify's official account after connecting with your preferred web services.
 You can receive notifications from multiple services in groups or 1-on-1 chats.
 
