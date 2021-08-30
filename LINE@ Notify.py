@@ -11,7 +11,7 @@ def sendtoNotify():
     message = f"\n{content}"
     r = requests.post(url=url, headers=headers, data={"message": message})
 
-
+# See documentation for using schedule in https://schedule.readthedocs.io/en/stable/
 schedule.every().day.at("06:00").do(sendtoNotify)
 
 while True:
