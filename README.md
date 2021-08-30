@@ -37,3 +37,6 @@ you will get a token, and copy the token then paste it into the script
 And this is result:
 
 ![ntf8](https://user-images.githubusercontent.com/82330418/131312074-bff44492-ba09-4d2f-856f-7bd9ceee5a6e.PNG)
+
+for mor information:
+https://notify-bot.line.me/doc/en/
