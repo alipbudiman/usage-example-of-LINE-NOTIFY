@@ -1,3 +1,19 @@
+__author__ = "> Alif Budiman"
+__idline__ = "\n> ID Line: alifbudimanwahabbi"
+__status__ = "\n> Send bug if you find it!!!"
+
+"""
+CREDIT ________________________________
+⌬   Creat with ❤️ by Alip
+⌬   find me on LINE or IG
+⌬   ID: alifbudimanwahabbi 
+⌬   ID LINE: alifbudimanwahabbi
+⌬   Whatsapp +6282113791904
+⌬   You can DM me for any ask something or give a littlebit donations
+⌬   Copyright 2021 by Alip  FXG TEAMS
+# Free to use, all credits belong to me.
+# Feel free to report bugs :)"""
+
 import requests, schedule, time, json, requests
 
 global token
@@ -108,6 +124,16 @@ update prayer schedule
 
 schedule.every().day.at("23:40").do(prayer_schedule_updates)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+def run():
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
+if __name__ == "__main__":
+    scoop_me_ice_cram = ["\n\n-- FYI --\n\n",__author__,__idline__,__status__]
+    if scoop_me_ice_cram != []:
+        for wanna_ice_cream in scoop_me_ice_cram:
+                print(wanna_ice_cream)
+    else:
+        print("i'm mad with u :(")
+    run()
