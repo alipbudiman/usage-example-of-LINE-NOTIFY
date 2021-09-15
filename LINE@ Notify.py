@@ -1,5 +1,9 @@
 import requests, schedule, time
 
+"""
+simpel using line notify methoe
+"""
+
 def sendtoNotify():
     token = "oWREJ7eRWI7CQscwvPalLZrcu4klQ5R0MXFJwSDCdm5"
     content = "Take a bath, take a bed again"
@@ -10,8 +14,9 @@ def sendtoNotify():
     url = "https://notify-api.line.me/api/notify"
     message = f"\n{content}"
     r = requests.post(url=url, headers=headers, data={"message": message})
+    print(r.text)
 
-# See documentation for using schedule in https://schedule.readthedocs.io/en/stable/
+
 schedule.every().day.at("06:00").do(sendtoNotify)
 
 while True:
