@@ -67,3 +67,6 @@ https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4
 #REVOKING NOTIFY TOKEN
 https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/exampCode.py#L17-L19
 
+#EXAMPLE BOT GREETINGS & ADZAN
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/main/LINE%40%20Notify.py
+
