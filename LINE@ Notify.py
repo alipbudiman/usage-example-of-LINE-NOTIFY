@@ -16,12 +16,12 @@ CREDIT ________________________________
 
 import requests, schedule, time, json, requests
 
-global token
+global tv, token
 
 """
 simpel using line notify methode
 """
-
+tv = "RCTI OKE..."
 token = "oWREJ7eRWI7CQscwvPalLZrcu4klQ5R0MXFJwSDCdm5"  # <  imput your notify token
 
 
