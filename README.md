@@ -42,3 +42,28 @@ And this is result:
 
 for mor information:
 https://notify-bot.line.me/doc/en/
+
+
+_**LETS CODE!!**_
+
+#SIMPEL USING LINE NOTIFY
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/LINE%40%20Notify.py#L1-L24
+
+#ACCESS LINE NOTIFY
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/exampCode.py#L1-L5
+
+#SEND MESSAGE
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/exampCode.py#L7
+
+#UPLOAD AND SEND IMAGE
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/exampCode.py#L9
+
+#SEND STICKERS
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/exampCode.py#L11
+
+#CEK API STATUS
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/exampCode.py#L13-L15
+
+#REVOKING NOTIFY TOKEN
+https://github.com/alipbudiman/usage-example-of-LINE-NOTIFY/blob/0847afdd4f2eec4d9bf89c8cda823d90fd70ba7f/exampCode.py#L17-L19
+
