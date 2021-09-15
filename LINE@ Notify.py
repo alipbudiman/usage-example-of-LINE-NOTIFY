@@ -16,14 +16,14 @@ CREDIT ________________________________
 
 import requests, schedule, time, json, requests
 
-global tv, token
+global tv, token, mycity
 
 """
 simpel using line notify methode
 """
 tv = "RCTI OKE..."
 token = "oWREJ7eRWI7CQscwvPalLZrcu4klQ5R0MXFJwSDCdm5"  # <  imput your notify token
-
+mycity = "jakarta"
 
 def sendtoNotify(token, content="good morning bby..."):
     headers = {
@@ -38,7 +38,7 @@ def sendtoNotify(token, content="good morning bby..."):
 
 def prayer_schedule_updates(
     www_waktusholat_org="https://api.pray.zone/v2/times/today.json?city=",
-    city="jakarta",
+    city=mycity,
 ):
     data = json.loads(requests.get(www_waktusholat_org + city).text)
     if data["code"] == 200:
@@ -66,7 +66,7 @@ MANG LINE BAKAL JAMIN LO MASUK SORGA
 
 """
 datashalat = {
-    "city": "jakarta",
+    "city": mycity,
     "Fajr": "04:30",
     "Dhuhr": "11:48",
     "Asr": "15:02",
