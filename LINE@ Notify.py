@@ -73,7 +73,10 @@ datashalat = {
     "Maghrib": "18:03",
     "Isha": "18:55",
 }
-prayer_schedule_updates()
+prayer_schedule_updates(
+    www_waktusholat_org="https://api.pray.zone/v2/times/today.json?city=",
+    city=datashalat["city"]
+)
 print("update prayer schedule")
 for x in list(datashalat):
     print(str(x + ": " + datashalat[x]))
