@@ -22,18 +22,37 @@ global tv, token, mycity
 simpel using line notify methode
 """
 tv = "RCTI OKE..."
-token = "oWREJ7eRWI7CQscwvPalLZrcu4klQ5R0MXFJwSDCdm5"  # <  imput your notify token
+token = [
+    "oWREJ7eRWI7CQscwvPalLZrcu4klQ5R0MXFJwSDCdm5",
+    "oWREJ7eRWI7CQscwvPalLZrcu4klQ5R0MXFJwSDCdm5",
+    "oWREJ7eRWI7CQXZxaasfawq4klQ5R0MXsfsdfDCdm5"
+]  # <  imput your notify token
 mycity = "jakarta"
 
 def sendtoNotify(token, content="good morning bby..."):
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": f"Bearer {token}",
+        "Authorization": f"Bearer {token[0]}", #> just using token in index 0
     }
     url = "https://notify-api.line.me/api/notify"
     message = f"\n{content}"
     r = requests.post(url=url, headers=headers, data={"message": message})
     print(r.text)
+
+def sendBroadcasttoNotify(token, content="good morning bby..."):
+    if len(token) <= 1:
+        res = sendtoNotify(token, content)
+        return res
+    else:
+        for lovealip in token: #> using all token, if data in token <= 1 return sendtoNotify
+            headers = {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Authorization": f"Bearer {lovealip}", #> just using token in index 0
+            }
+            url = "https://notify-api.line.me/api/notify"
+            message = f"\n{content}"
+            r = requests.post(url=url, headers=headers, data={"message": message})
+            print(r.text)
 
 
 def prayer_schedule_updates(
