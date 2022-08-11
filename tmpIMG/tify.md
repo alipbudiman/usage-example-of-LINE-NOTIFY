@@ -33,3 +33,6 @@ You can free to named the token and chosee your notification send to
 here I choose the message sent directly to me
 
 ![ntf7](https://user-images.githubusercontent.com/82330418/131311595-4e85ecbf-4100-49f5-8aa1-fde8e637a241.PNG)
+
+
+copy Your Notify token, and put into your bot
